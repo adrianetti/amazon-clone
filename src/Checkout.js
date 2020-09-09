@@ -6,6 +6,15 @@ import { useStateValue } from './StateProvider';
 function Checkout() {
     const [{basket}, dispatch] = useStateValue();
 
+
+    const removeFromBasket = (id) => {
+        dispatch({
+            type: 'REMOVE_FROM_BASKET',
+            id: id,
+        });
+
+    }
+
     return (
 
         <div className="checkout">
@@ -37,7 +46,7 @@ function Checkout() {
                             ))}
                             </div>
 
-                            <button>Delete</button>
+                            <button onClick={() => removeFromBasket(basket.id)}>Delete</button>
                         </div>
 
                     </div>
