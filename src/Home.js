@@ -16,7 +16,7 @@ function Home() {
                 <div className="home__row">
                     <Product id="57" rating={5} title="The Ballad of Songbirds and Snakes (A Hunger Games Novel)" price={14.38} image="https://images-na.ssl-images-amazon.com/images/I/61rGUKxLaBL.jpg"/>
                     <Product id="656" rating={5}
-                    title="Apple iPhone 11, 128GB, Black - Fully Unlocked (Renewed)" price={707.95} image="https://images-na.ssl-images-amazon.com/images/I/51GUjMAFDbL._AC_SL1382_.jpg"/>
+                    title="Apple iPhone 11, 128GB, Black - Fully Unlocked (Renewed)" price={759.99} image="https://images-na.ssl-images-amazon.com/images/I/51GUjMAFDbL._AC_SL1382_.jpg"/>
                     <Product id="424" rating={3} title="Beats Solo3 Wireless On-Ear Headphones - Apple W1 Headphone Chip, Class 1 Bluetooth, 40 Hours Of Listening Time - Red (Latest Model)" price={169.00} image="https://images-na.ssl-images-amazon.com/images/I/51-CdmhSPLL._AC_SL1000_.jpg"/>                
                 </div>
 

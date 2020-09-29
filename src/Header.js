@@ -27,7 +27,7 @@ function Header() {
                     <span className="header__optLineOne">
                         Hello Guest
                     </span>
-                    <Link to="/signin">
+                    <Link to="/login">
                         <span className="header__optLineTwo">
                             Sign In
                         </span>
