@@ -13,9 +13,10 @@ function SignIn() {
     const signIn = (event) => {
         event.preventDefault();        
         auth.signInWithEmailAndPassword(email, password)
-        .then(auth => 
-            history.push('/')
-            )
+        .then((auth) => {
+            history.push('/');
+        }
+        )
         .catch((error) => alert(error.message));
     }
     
